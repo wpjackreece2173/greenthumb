@@ -1,4 +1,4 @@
-# plant-pal
+# greenthumb
 
 GreenThumb – Smart Plant Care Assistant
 
