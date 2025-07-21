@@ -1,36 +1,89 @@
-# greenthumb
+# GreenThumb – Smart Plant Care Assistant
 
-GreenThumb – Smart Plant Care Assistant
+**GreenThumb** is a Python desktop application (Tkinter GUI) that helps you track watering and fertilizing schedules for your plants.  
+You can add plants, update care dates, search, delete, and view reminders.  
+All data is saved persistently in a JSON file.
 
-GreenThumb is a simple Python application that helps busy or forgetful plant owners care for their plants. It reminds users when to water and fertilize each plant based on a personalized schedule, helping to prevent plant neglect and encourage healthy growth.
+---
 
-🌿 Project Features
-[]
+## 🌱 Features
 
-📂 Project Structure
-[]
+✅ Add plants with watering and fertilizing intervals  
+✅ Update care status (watered or fertilized)  
+✅ Search and delete plants  
+✅ View daily reminders for plants needing care  
+✅ Data saved in `plants.json` (JSON format)  
+✅ Simple, user‑friendly Tkinter GUI  
 
-🛠 How to Run the Program
-[]
+---
 
-🧪 Testing
-Tests are stored in the tests/ folder. To run the tests, use:
+## ⚙️ Requirements
 
-[]
+- **Python 3.10+** (Tkinter comes pre‑installed with most Python distributions)
+- Standard libraries only (no additional installations needed):
+  - `tkinter`
+  - `json`
+  - `os`
+  - `datetime`
 
-💾 Data Persistence
-[]
+---
 
-🌱 Advanced Functionality
-The following features represent the advanced aspects of this project:
-[]
+## 📥 Installation
 
-👥 Contributors
+1. **Clone this repository**  
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/GreenThumb.git
+   cd GreenThumb
+
+2. **Verify Python installation**
+    ```bash
+    python --version
+
+    OR
+
+    python3 --version
+
+---
+
+## ▶️ **How to Run**
+Run the GUI application with:
+
+    python greenthumb_gui.py
+
+or, depending on your system:
+
+    python3 greenthumb_gui.py
+
+The main window will open.
+You can immediately start adding plants and managing their care schedules.
+
+---
+
+## 💾 Data Persistence
+All plant data is saved to a JSON file called plants.json in the same directory as the script.
+
+If plants.json does not exist, it will be created automatically when you save.
+
+---
+
+## 📂 Files in This Repository
+
+greenthumb_gui.py : Main application code (Tkinter GUI)
+
+plants.json	: JSON file storing plant data (created after saving)
+
+README.md	: Instructions for running the application
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
+
+---
+
+## ✨ Authors
 Wynstona Jackreece
-Ella Smith 
 
-Minimum 200 lines of code were written by our group (excluding external libraries or pseudocode). Each module is documented with comments and function descriptions.
+Ella Smith
 
-📄 License
-This project is open-source and available under the MIT License.
-
+Code refined with assistance from ChatGPT (OpenAI GPT‑4) and GitHub Copilot Chat
